@@ -1,0 +1,3 @@
+[submodule "external/atest"]
+	path = external/atest
+	url = git@github.com:yasuikentarow/atest.git

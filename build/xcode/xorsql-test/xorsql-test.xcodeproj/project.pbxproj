@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266326071F841EBA002DB452 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 266326051F841EBA002DB452 /* Test.cpp */; };
+		2663260D1F841EDE002DB452 /* libatest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2663260B1F841EDE002DB452 /* libatest.a */; };
+		2663260E1F841EDE002DB452 /* libxorsql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2663260C1F841EDE002DB452 /* libxorsql.a */; };
+		266326111F841F8B002DB452 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2663260F1F841F8B002DB452 /* main.cpp */; };
+		266326131F84221E002DB452 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 266326121F84221E002DB452 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		266325F81F841DEA002DB452 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		266325FA1F841DEA002DB452 /* xorsql-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "xorsql-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266326051F841EBA002DB452 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		266326061F841EBA002DB452 /* Test.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Test.hpp; sourceTree = "<group>"; };
+		2663260B1F841EDE002DB452 /* libatest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libatest.a; path = ../../../external/atest/build/xcode/atest/build/Debug/libatest.a; sourceTree = "<group>"; };
+		2663260C1F841EDE002DB452 /* libxorsql.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxorsql.a; path = ../xorsql/build/Debug/libxorsql.a; sourceTree = "<group>"; };
+		2663260F1F841F8B002DB452 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		266326101F841F8B002DB452 /* stdafx.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stdafx.hpp; sourceTree = "<group>"; };
+		266326121F84221E002DB452 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266325F71F841DEA002DB452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266326131F84221E002DB452 /* libsqlite3.tbd in Frameworks */,
+				2663260D1F841EDE002DB452 /* libatest.a in Frameworks */,
+				2663260E1F841EDE002DB452 /* libxorsql.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266325F11F841DEA002DB452 = {
+			isa = PBXGroup;
+			children = (
+				266326041F841EBA002DB452 /* test */,
+				266325FB1F841DEA002DB452 /* Products */,
+				2663260A1F841EDD002DB452 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		266325FB1F841DEA002DB452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266325FA1F841DEA002DB452 /* xorsql-test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266326041F841EBA002DB452 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				2663260F1F841F8B002DB452 /* main.cpp */,
+				266326101F841F8B002DB452 /* stdafx.hpp */,
+				266326051F841EBA002DB452 /* Test.cpp */,
+				266326061F841EBA002DB452 /* Test.hpp */,
+			);
+			name = test;
+			path = ../../../test;
+			sourceTree = "<group>";
+		};
+		2663260A1F841EDD002DB452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				266326121F84221E002DB452 /* libsqlite3.tbd */,
+				2663260B1F841EDE002DB452 /* libatest.a */,
+				2663260C1F841EDE002DB452 /* libxorsql.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266325F91F841DEA002DB452 /* xorsql-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266326011F841DEA002DB452 /* Build configuration list for PBXNativeTarget "xorsql-test" */;
+			buildPhases = (
+				266325F61F841DEA002DB452 /* Sources */,
+				266325F71F841DEA002DB452 /* Frameworks */,
+				266325F81F841DEA002DB452 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xorsql-test";
+			productName = "xorsql-test";
+			productReference = 266325FA1F841DEA002DB452 /* xorsql-test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266325F21F841DEA002DB452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "YASUI Kentarow";
+				TargetAttributes = {
+					266325F91F841DEA002DB452 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 266325F51F841DEA002DB452 /* Build configuration list for PBXProject "xorsql-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 266325F11F841DEA002DB452;
+			productRefGroup = 266325FB1F841DEA002DB452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266325F91F841DEA002DB452 /* xorsql-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266325F61F841DEA002DB452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266326111F841F8B002DB452 /* main.cpp in Sources */,
+				266326071F841EBA002DB452 /* Test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		266325FF1F841DEA002DB452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../../test/stdafx.hpp";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../.. $(PROJECT_DIR)/../../../external/atest";
+			};
+			name = Debug;
+		};
+		266326001F841DEA002DB452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/../../../test/stdafx.hpp";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../../.. $(PROJECT_DIR)/../../../external/atest";
+			};
+			name = Release;
+		};
+		266326021F841DEA002DB452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		266326031F841DEA002DB452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266325F51F841DEA002DB452 /* Build configuration list for PBXProject "xorsql-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266325FF1F841DEA002DB452 /* Debug */,
+				266326001F841DEA002DB452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266326011F841DEA002DB452 /* Build configuration list for PBXNativeTarget "xorsql-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266326021F841DEA002DB452 /* Debug */,
+				266326031F841DEA002DB452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266325F21F841DEA002DB452 /* Project object */;
+}
